@@ -22,11 +22,10 @@ module Yo
 
     private def access_api
       begin
-        responce = yield
+        params = JSON.parse(yield.body)
       rescue Exception => e
         raise UnknownError, e.message
       end
-      params = JSON.parse(responce.body)
       raise ClientError, params['error'] if params['error']
       params['result']
     end
