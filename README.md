@@ -30,8 +30,8 @@ client.subscribers_count # => 42
 That's all.
 
 ## Exceptions
-If `Yo::ClientError` is raised, the API token or username maybe invalid.
-If `Yo::UnknownError` is raised, the Yo API server maybe down.
+- If `Yo::ClientError` is raised, the API token or username maybe invalid.
+- If `Yo::UnknownError` is raised, the Yo API server maybe down.
 
 ## Contributing
 1. Fork it ( https://github.com/tanimichi/yo4r/fork )
