@@ -22,7 +22,8 @@ module Yo
 
     private def access_api
       begin
-        params = JSON.parse(yield.body)
+        response = yield
+        params = JSON.parse(response.body)
       rescue Exception => e
         raise UnknownError, e.message
       end
