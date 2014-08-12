@@ -1,4 +1,9 @@
 # yo4r
+
+[![Gem Version](https://badge.fury.io/rb/yo4r.svg)](http://badge.fury.io/rb/yo4r)
+[![Dependency Status](https://gemnasium.com/tanimichi/yo4r.svg)](https://gemnasium.com/tanimichi/yo4r)
+[![Stories in Ready](https://badge.waffle.io/tanimichi/yo4r.svg?label=ready&title=Ready)](http://waffle.io/tanimichi/yo4r)
+
 A Ruby interface to the Yo API.
 
 ## Installation
