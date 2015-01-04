@@ -1,4 +1,5 @@
 module Yo
-  ClientError     = Class.new(StandardError)
-  UnknownError    = Class.new(StandardError)
+  YoError      = Class.new StandardError
+  ClientError  = Class.new YoError
+  UnknownError = Class.new YoError
 end
